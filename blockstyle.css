@@ -1,0 +1,66 @@
+*{
+    background-color: skyblue;
+}
+
+body {
+    place-items: center;
+    text-align: center;
+    top: 10px
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    top: 10px;
+}
+
+.bluebox {
+         height: 70%;
+         width: 70%;
+         background-color: teal;
+         display: flex;
+         margin: auto;
+         margin-top: 10px;
+         margin-bottom: 10px;
+         padding: 10px;
+         border: 10px;
+         justify-content: space-around;
+}
+
+.pinkbox {
+    height: 70%;
+    width: 70%;
+    background-color: lightpink;
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.whitebox {
+    height: 70%;
+    width: 70%;
+    background-color: white;
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    /* display: flex;
+    margin: auto; */
+}
+
+/* .row {
+    display: flex;    
+    justify-content: space-around;
+    margin: auto;
+    padding: 10px;
+} */
